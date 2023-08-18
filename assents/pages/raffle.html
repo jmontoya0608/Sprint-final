@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muse Mind-Raflle</title>
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/aboutus.html">Abaout</a>
+            <a href="../pages/Contact.html">Contact</a>
+            <a href="../pages/information.html">Information</a>
+            <a href="../pages/benefitsTips.html">Benefits-Tips</a>
+            <a href="#">Raffle</a>
+        </nav>
+        <img src="../images/logo.png" alt=" logo muse mind" id="logo">
+    </header>
+    <main id="mrf">
+        <section id="mrm">
+            <h1>Raffle</h1>
+            <h2>You can collaborate to hold and exhibition event and participate in a raffle to win an easil</h2>
+        </section>
+        <div id="rm1">
+            <div id="drm">
+                <p>Our Location Is Located At:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26432.380627013!2d-118.28716596692394!3d34.09392158381704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c72535421b63%3A0x7a92a43f49544f4e!2sSilver%20Lake%20Dog%20Park!5e0!3m2!1ses-419!2sco!4v1692326479212!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <form action="../../data/show_data.html" method="get">
+                    <fieldset id="rm2">
+                        <label for="FN">First Name:</label>
+                        <input type="text" id="FN" name="FN-user">
+                        <label for="LN">Last Name</label>
+                        <input type="text" id="LN" name="LN-user">
+                        <label for="Art-Theme">Choose Theme Art</label>
+                        <select name="Choose-Theme-Art" id="Art-Theme">
+                            <option>Art Theme</option>
+                            <option>Surreal Art</option>
+                            <option>Abstract Art</option>
+                            <option>Expressionism</option>
+                        </select>
+                        <label for="Timetable">Choose Date</label>
+                        <input type="Date" id="Timetable" name="Date-sel">
+                    </fieldset>
+                    <fieldset class="rm3">
+                        <legend>Payment Options</legend>
+                        <label for="CH">Cash</label>
+                        <input type="radio" id="CH" name="Payment" value="Cash">
+                        <label for="CC">Credit Card</label>
+                        <input type="radio" id="CC" name="Payment" value="Credit Card">               
+                        <label for="DC">Debit Card</label>
+                        <input type="radio" id="DC" name="Payment" value="Debit Card">
+                    </fieldset>
+                    <fieldset id="rm4">
+                        <legend>Message(optional)</legend>
+                        <label for="coment"></label>
+                        <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="termandcond" id="termandcond">
+                        <label for="termandcond">I Accept Terms And Conditions...</label>   
+                        <input type="submit" value="send">
+                    </fieldset>
+                    </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Created by:Jesus Montoya</h4>
+    </footer>
+</body>
+</html>
